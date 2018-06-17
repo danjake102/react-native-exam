@@ -71,7 +71,7 @@ export default class TextInputs extends Component{
                     style={styles.button}
                     
                 >
-                    <Text> Sign In </Text>
+                    <Text style={styles.buttonText}> Sign In </Text>
                 </TouchableOpacity>
             </View>
         )
