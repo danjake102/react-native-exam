@@ -49,6 +49,7 @@ export default class TextInputs extends Component{
             <View>
                 <Text style={styles.text}>Email</Text>
                     <TextInput 
+                        placeholder='Input email address'
                         underlineColorAndroid='transparent' 
                         style={styles.textInput}
                         onChangeText={this.onChangeEmail}
@@ -58,6 +59,7 @@ export default class TextInputs extends Component{
 
                 <Text  style={styles.text}>Password</Text>
                     <TextInput 
+                        placeholder='Input password'
                         secureTextEntry={true} 
                         underlineColorAndroid='transparent' 
                         style={styles.textInput}
