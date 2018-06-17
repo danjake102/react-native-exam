@@ -24,7 +24,10 @@ export default EStyleSheet.create({
         marginBottom: 15,
         fontStyle: 'italic',
     },
-
+    buttonText: {
+        color: 'white',
+        fontWeight: 'bold',
+    },
     button: {
         justifyContent: 'center',
         alignItems: 'center',
