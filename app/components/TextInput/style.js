@@ -28,7 +28,8 @@ export default EStyleSheet.create({
         color: 'white',
         fontWeight: 'bold',
     },
-    button: {
+
+    btnStyles: {
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '$wisteria',
@@ -36,4 +37,9 @@ export default EStyleSheet.create({
         padding: 10,
         marginTop: 20,
     },
+
+    btnDisabled: {
+        backgroundColor: '#BE90D4',
+    },
+    
 });
